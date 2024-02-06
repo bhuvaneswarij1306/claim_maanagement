@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Claim Request">7461fbf3470c065014300592e36d435d</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 14:02:39</sys_created_on>
+        <sys_id>1fa67b7b470c065014300592e36d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Claim Request</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1fa67b7b470c065014300592e36d43e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 14:02:39</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sc_cat_item_catalog_1fa67b7b470c065014300592e36d43e3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Claim Request">7461fbf3470c065014300592e36d435d</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-06 14:02:39</sys_created_on><sys_id>1fa67b7b470c065014300592e36d43e3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Claim Request</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sc_cat_item_catalog_1fa67b7b470c065014300592e36d43e3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-06 14:02:39</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1015013247</payload_hash>
+        <record_name>Service Catalog.Claim Request</record_name>
+        <reverted_from/>
+        <source>6ffddb3f4788065014300592e36d43df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 14:02:39</sys_created_on>
+        <sys_id>9ba67b7b470c065014300592e36d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d7eba5de80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 14:02:39</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1fa67b7b400c0650a022ae5a63a0f9e6</update_guid>
+        <update_guid_history>1fa67b7b400c0650a022ae5a63a0f9e6:-1015013247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Claim Request">76c63f7b470c065014300592e36d4380</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 14:03:10</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5c4e5dcdbfe644b39bcb7e470051b0f9</sys_id>
+        <sys_metadata>1fa67b7b470c065014300592e36d43e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Claim Request</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Claim Request">7461fbf3470c065014300592e36d435d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_1fa67b7b470c065014300592e36d43e3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_1fa67b7b470c065014300592e36d43e3">9ba67b7b470c065014300592e36d43e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 14:03:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

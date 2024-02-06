@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="labelCacheCleanUpExecuted=true" db_object_id="bf632ff347c8065014300592e36d43ed" extends="task" label="Claim Details" max_length="40" name="x_1025229_claim_0_claim_details" type="collection"/>
+</database>
