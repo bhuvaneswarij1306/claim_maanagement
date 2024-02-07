@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Sub Category">6c8f3c104714865014300592e36d437a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 14:01:28</sys_created_on>
+        <sys_id>ebff74504714865014300592e36d439e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gym</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>question_choice_ebff74504714865014300592e36d439e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 14:01:28</sys_updated_on>
+        <text>gym</text>
+        <value>gym</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ebff74504714865014300592e36d439e"/>
+</record_update>

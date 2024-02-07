@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Category">008e78dc47d0865014300592e36d4330</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 13:58:05</sys_created_on>
+        <sys_id>c23fb4104714865014300592e36d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LTA</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>question_choice_c23fb4104714865014300592e36d4364</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 13:58:05</sys_updated_on>
+        <text>LTA</text>
+        <value>lta</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c23fb4104714865014300592e36d4364"/>
+</record_update>
