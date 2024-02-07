@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Initiate Claim Request">74c5e3c0475c465014300592e36d43e5</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 08:01:20</sys_created_on>
+        <sys_id>dc9d67c8475c465014300592e36d43e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Claim information.Initiate Claim Request</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>io_set_item_dc9d67c8475c465014300592e36d43e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 08:01:21</sys_updated_on>
+        <variable_set display_value="Claim information">936d670c475c465014300592e36d437d</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>io_set_item_dc9d67c8475c465014300592e36d43e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Initiate Claim Request">74c5e3c0475c465014300592e36d43e5</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-07 08:01:20</sys_created_on><sys_id>dc9d67c8475c465014300592e36d43e1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Claim information.Initiate Claim Request</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>io_set_item_dc9d67c8475c465014300592e36d43e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-07 08:01:21</sys_updated_on><variable_set display_value="Claim information">936d670c475c465014300592e36d437d</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>439153110</payload_hash>
+        <record_name>Claim information.Initiate Claim Request</record_name>
+        <reverted_from/>
+        <source>44b44bc84798465014300592e36d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 08:01:21</sys_created_on>
+        <sys_id>209d6f0c475c465014300592e36d4381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8295f2080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 08:01:21</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>649d6f0c8d5c4650244c2beed8ecdb80</update_guid>
+        <update_guid_history>649d6f0c8d5c4650244c2beed8ecdb80:439153110</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Claim information.Initiate Claim Request">94379cdc4710865014300592e36d4398</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:03:12</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>bbe8308a3ef846adaee43af2f4c39c11</sys_id>
+        <sys_metadata>dc9d67c8475c465014300592e36d43e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim information.Initiate Claim Request</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>io_set_item_dc9d67c8475c465014300592e36d43e1</sys_update_name>
+        <sys_update_version display_value="io_set_item_dc9d67c8475c465014300592e36d43e1">209d6f0c475c465014300592e36d4381</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:03:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

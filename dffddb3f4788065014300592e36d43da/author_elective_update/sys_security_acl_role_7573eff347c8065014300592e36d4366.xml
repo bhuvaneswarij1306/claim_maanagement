@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 12:38:43</sys_created_on>
+        <sys_id>7573eff347c8065014300592e36d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_claim_0_claim_details.x_1025229_claim_0.employees</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_security_acl display_value="x_1025229_claim_0_claim_details">3d73eff347c8065014300592e36d4363</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_7573eff347c8065014300592e36d4366</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:38:43</sys_updated_on>
+        <sys_user_role display_value="x_1025229_claim_0.employees" name="x_1025229_claim_0.employees">a7fd9f3f4788065014300592e36d43bd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_security_acl_role_7573eff347c8065014300592e36d4366</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-06 12:38:43</sys_created_on><sys_id>7573eff347c8065014300592e36d4366</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1025229_claim_0_claim_details.x_1025229_claim_0.employees</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_security_acl display_value="x_1025229_claim_0_claim_details">3d73eff347c8065014300592e36d4363</sys_security_acl><sys_update_name>sys_security_acl_role_7573eff347c8065014300592e36d4366</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-06 12:38:43</sys_updated_on><sys_user_role display_value="x_1025229_claim_0.employees" name="x_1025229_claim_0.employees">a7fd9f3f4788065014300592e36d43bd</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>16116196</payload_hash>
+        <record_name>x_1025229_claim_0_claim_details.x_1025229_claim_0.employees</record_name>
+        <reverted_from/>
+        <source>6ffddb3f4788065014300592e36d43df</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-06 12:38:43</sys_created_on>
+        <sys_id>7973eff347c8065014300592e36d4368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d7e6d84a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-06 12:38:43</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>bd73eff3ebc80650fff3af1b676efe67</update_guid>
+        <update_guid_history>bd73eff3ebc80650fff3af1b676efe67:16116196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1025229_claim_0_claim_details.x_1025229_claim_0.employees">6537a4144790865014300592e36d4329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 12:13:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>11dd40a30c014d1383f33ed8ecaf7351</sys_id>
+        <sys_metadata>7573eff347c8065014300592e36d4366</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1025229_claim_0_claim_details.x_1025229_claim_0.employees</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="">3d73eff347c8065014300592e36d4363</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_7573eff347c8065014300592e36d4366</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_7573eff347c8065014300592e36d4366">7973eff347c8065014300592e36d4368</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 12:13:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

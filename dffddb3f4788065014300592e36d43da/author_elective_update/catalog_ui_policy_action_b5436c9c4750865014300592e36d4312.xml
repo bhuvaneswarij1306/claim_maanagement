@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Initiate Claim Request">74c5e3c0475c465014300592e36d43e5</catalog_item>
+        <catalog_variable>IO:8e2c2f48475c465014300592e36d4385</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>10</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:56:13</sys_created_on>
+        <sys_id>b5436c9c4750865014300592e36d4312</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sub_category</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b5436c9c4750865014300592e36d4312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 12:00:04</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show when for Sub category">7c03e49c4750865014300592e36d437a</ui_policy>
+        <variable>sub_category</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>catalog_ui_policy_action_b5436c9c4750865014300592e36d4312</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Initiate Claim Request">74c5e3c0475c465014300592e36d43e5</catalog_item><catalog_variable>IO:8e2c2f48475c465014300592e36d4385</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>10</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-07 11:56:13</sys_created_on><sys_id>b5436c9c4750865014300592e36d4312</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sub_category</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>catalog_ui_policy_action_b5436c9c4750865014300592e36d4312</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-07 12:00:04</sys_updated_on><table/><ui_policy display_value="Show when for Sub category">7c03e49c4750865014300592e36d437a</ui_policy><variable>sub_category</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1983719419</payload_hash>
+        <record_name>sub_category</record_name>
+        <reverted_from/>
+        <source>44b44bc84798465014300592e36d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 12:00:05</sys_created_on>
+        <sys_id>613464104790865014300592e36d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8370829d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 12:00:05</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>29346410069086501c4cad8c95246344</update_guid>
+        <update_guid_history>29346410069086501c4cad8c95246344:1983719419,c9536c9c6c508650069973df0db972ce:633680504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sub_category">ac74a4104790865014300592e36d431c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 12:01:06</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>aada37c971674ea789cbd1cbbc5d51e1</sys_id>
+        <sys_metadata>b5436c9c4750865014300592e36d4312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sub_category</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b5436c9c4750865014300592e36d4312</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b5436c9c4750865014300592e36d4312">613464104790865014300592e36d4345</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 12:01:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

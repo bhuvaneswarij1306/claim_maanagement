@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="documents" label="Supporting Documents/Bills" language="en" table="x_1025229_claim_0_claim_request_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>documents</element>
+            <help/>
+            <hint/>
+            <label>Supporting Documents/Bills</label>
+            <language>en</language>
+            <name>x_1025229_claim_0_claim_request_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-07 12:32:21</sys_created_on>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>Supporting Documents/Bills</sys_name>
+            <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+            <sys_update_name>sys_documentation_x_1025229_claim_0_claim_request_details_documents_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-07 13:21:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
