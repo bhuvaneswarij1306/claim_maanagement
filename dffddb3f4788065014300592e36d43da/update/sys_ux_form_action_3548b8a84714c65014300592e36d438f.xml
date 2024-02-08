@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Send Back</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 08:06:13</sys_created_on>
+        <sys_id>3548b8a84714c65014300592e36d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Send Back</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ux_form_action_3548b8a84714c65014300592e36d438f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 08:06:13</sys_updated_on>
+        <table>x_1025229_claim_0_test_task</table>
+        <ui_action display_value="Send Back">6a67f4e04754c65014300592e36d43a5</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=3548b8a84714c65014300592e36d438f"/>
+</record_update>

@@ -1,3 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="labelCacheCleanUpExecuted=true" db_object_id="2b68f01847d0865014300592e36d4319" extends="task" label="Test task" max_length="40" name="x_1025229_claim_0_test_task" type="collection"/>
+    <element attributes="labelCacheCleanUpExecuted=true" audit="true" db_object_id="2b68f01847d0865014300592e36d4319" extends="task" label="Test task" max_length="40" name="x_1025229_claim_0_test_task" type="collection">
+        <element label="Claim Request" max_length="32" name="claim_request" read_only="true" reference="x_1025229_claim_0_claim_request_details" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved by Reviewer" sequence="0" value="Approved by Reviewer"/>
+                <element inactive_on_update="false" label="Send Back" sequence="1" value="Send Back"/>
+                <element inactive_on_update="false" label="Approved by Accounts Team" sequence="2" value="Approved by Accounts Team"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+            </choice>
+        </element>
+    </element>
 </database>
