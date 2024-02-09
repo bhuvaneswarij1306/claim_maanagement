@@ -18,6 +18,7 @@
         <element label="Hospital Name" max_length="40" name="hospital_name" type="string"/>
         <element label="Injury Name" max_length="40" name="injury_name" type="string"/>
         <element label="Insurance Provider Name" max_length="40" name="insurance_provider_name" type="string"/>
+        <element label="LTA Details" max_length="32" name="lta_details" reference="x_1025229_claim_0_claim_lta" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Remarks" mandatory="true" max_length="40" name="remarks" type="string"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Request Owner" max_length="32" name="request_owner" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -40,6 +41,9 @@
         <element label="Treatment Details" max_length="40" name="treatment_details" type="string"/>
         <element label="User Details" max_length="32" name="user_details" reference="x_1025229_claim_0_user_details" type="reference"/>
         <index name="index">
+            <element name="lta_details"/>
+        </index>
+        <index name="index2">
             <element name="user_details"/>
         </index>
     </element>

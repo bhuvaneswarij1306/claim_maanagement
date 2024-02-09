@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Showwhen condition for fields</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(newValue == 'Cash'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('dose',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }
+   else if(newValue == 'Insurance'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('insurance_provider_name',true);
+	g_form.setVisible('hospital_name',true);
+	g_form.setVisible('injury_name',true);
+	g_form.setVisible('treatment_details',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   else if(newValue == 'Broadband'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   else if(newValue == 'Petrol'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-09 09:45:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6e496b8475c0a5014300592e36d4340</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Showwhen condition for fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_script_client_a6e496b8475c0a5014300592e36d4340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-09 09:59:37</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_script_client_a6e496b8475c0a5014300592e36d4340</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Showwhen condition for fields&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(newValue == 'Cash'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('dose',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }
+   else if(newValue == 'Insurance'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('insurance_provider_name',true);
+	g_form.setVisible('hospital_name',true);
+	g_form.setVisible('injury_name',true);
+	g_form.setVisible('treatment_details',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   else if(newValue == 'Broadband'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   else if(newValue == 'Petrol'){
+	g_form.setVisible('claim_name',true);
+	g_form.setVisible('bill_no',true);
+	g_form.setVisible('claim_date',true);
+	g_form.setVisible('amount',true);
+	g_form.setVisible('remarks',true);
+	g_form.setVisible('documents',true);
+   }   
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-09 09:45:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a6e496b8475c0a5014300592e36d4340&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Showwhen condition for fields&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Claim Management" source="x_1025229_claim_0"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claim Management"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a6e496b8475c0a5014300592e36d4340&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-09 09:59:37&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_claim_0_claim_request_details&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-546121511</payload_hash>
+        <record_name>Showwhen condition for fields</record_name>
+        <reverted_from/>
+        <source>44b44bc84798465014300592e36d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-09 09:59:37</sys_created_on>
+        <sys_id>60db52f0479c0a5014300592e36d43dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d8d4eefd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-09 09:59:37</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>28db52f0739c0a50786cd8eca65259dc</update_guid>
+        <update_guid_history>28db52f0739c0a50786cd8eca65259dc:-546121511,974a9ebcf15c0a50f1c4617452185849:-1515073603,f8a81238045c0a505547fc2031533a6a:-690710633</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-09 10:02:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>77453e371cdc48b49232587715ef06a9</sys_id>
+        <sys_metadata>a6e496b8475c0a5014300592e36d4340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Showwhen condition for fields</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Claim Request Details">ffa9e0d44790865014300592e36d4327</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_script_client_a6e496b8475c0a5014300592e36d4340</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a6e496b8475c0a5014300592e36d4340">60db52f0479c0a5014300592e36d43dd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-09 10:02:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
