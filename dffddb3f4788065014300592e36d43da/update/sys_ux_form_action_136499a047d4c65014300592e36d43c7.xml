@@ -21,5 +21,4 @@
         <table>global</table>
         <ui_action display_value="Re-Submit">3c34552447d4c65014300592e36d4399</ui_action>
     </sys_ux_form_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=136499a047d4c65014300592e36d43c7"/>
 </record_update>

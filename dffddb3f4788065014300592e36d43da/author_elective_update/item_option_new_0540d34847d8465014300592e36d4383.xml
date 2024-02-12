@@ -171,7 +171,7 @@
         <update_guid_history>484117c48cd8465096a0432b234334e7:215858081,1ca05b48ded84650776badd14d7451f4:-2106846561</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Covid Vacination Document">33f35b4c47d8465014300592e36d43b6</sys_audit_delete>
+        <sys_audit_delete display_value="">33f35b4c47d8465014300592e36d43b6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 06:09:36</sys_created_on>

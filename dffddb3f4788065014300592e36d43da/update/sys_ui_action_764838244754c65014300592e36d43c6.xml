@@ -34,6 +34,7 @@
 // referenceRecord.get('sys_id', current.claim_request.sys_id);
 // referenceRecord.status = 'Rejected';
 // referenceRecord.update();
+current.state = 3;
 current.status = 'Rejected';
 current.update();]]></script>
         <show_insert>true</show_insert>
@@ -46,7 +47,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>764838244754c65014300592e36d43c6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Reject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -54,7 +55,7 @@ current.update();]]></script>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_ui_action_764838244754c65014300592e36d43c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-08 09:34:51</sys_updated_on>
+        <sys_updated_on>2024-02-12 06:40:58</sys_updated_on>
         <table>x_1025229_claim_0_test_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

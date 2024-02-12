@@ -171,7 +171,7 @@
         <update_guid_history>ba70419031148650a401d96f9f12e787:787150579,a810851059148650edb2abe86ccf4db8:1820225302,24008550f5148650c72f0e133b382e70:-660567625,ec0085507f1486504b4f68b904b6fa61:596562829,7fff74509b1486508b1106705d87a8a4:-1884230098,a7ff7450d4148650fe8c250a76df5e9a:-70055729,e7ff74502014865037efec6c56b8e371:1744118640,f63ff410db148650ab5261e105007d37:-736674287,1a3fb41029148650451a044a1c657695:1077500082,5e3fb410011486506e6687b267df6f7e:-1403292845,4a3fb41031148650ca95b09ce393fd74:410881524,463fb410c7148650cc85064f1c68b26a:-2069911403,4e3fb410df148650d873ff52e7137c5f:-255737034,4a3fb410ce1486500b6333b32f45c744:1505064396,4b2ef0dcf7d08650b416026f0bb43708:-975728531,872eb0dcaed086506c2fc5ab9b405bfe:1465201616,742e70dc55d08650cc5efa5c3b085cc4:-1015591311,c02e70dceed086509c8062134e943e2a:798583058,731e70dcefd08650358723608fd8d31e:-347693656,558bb01cedd0865089cc74fc63ee2d8f:1466480713,a16bfcd8add0865023c965609a471fcf:793737878,3a5bbcd8f7d08650a423ac7e2d9d61f2:522113623,505b7cd839d08650356c768a9bbf49c5:-1155373695,203bb8d811d0865046cdef1003716583:-1278553066</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Claim Request">837041904714865014300592e36d43c4</sys_audit_delete>
+        <sys_audit_delete display_value="">837041904714865014300592e36d43c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 14:03:36</sys_created_on>
@@ -181,7 +181,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Claim Request</sys_name>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
-        <sys_parent display_value="Test task">2b68f01847d0865014300592e36d4319</sys_parent>
+        <sys_parent display_value="Approval Task">2b68f01847d0865014300592e36d4319</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>

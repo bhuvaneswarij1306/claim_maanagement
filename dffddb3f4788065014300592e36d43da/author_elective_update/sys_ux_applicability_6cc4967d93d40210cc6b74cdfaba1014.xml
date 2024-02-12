@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="DELETE">
+        <active>true</active>
+        <api_name>x_1025229_claim_0.Audience for list b3c7063993940210cc6b74cdfaba1080</api_name>
+        <description>Audience for the list: All for the Workspace: Claim Management</description>
+        <name>Audience for list b3c7063993940210cc6b74cdfaba1080</name>
+        <role_names/>
+        <roles>2ffd9f3f4788065014300592e36d43b5,6ffd9f3f4788065014300592e36d43cc,a7fd9f3f4788065014300592e36d43ba</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 12:02:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6cc4967d93d40210cc6b74cdfaba1014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list b3c7063993940210cc6b74cdfaba1080</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ux_applicability_6cc4967d93d40210cc6b74cdfaba1014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 12:02:41</sys_updated_on>
+    </sys_ux_applicability>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ux_applicability_6cc4967d93d40210cc6b74cdfaba1014</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability"><sys_ux_applicability action="INSERT_OR_UPDATE"><active>true</active><api_name>x_1025229_claim_0.Audience for list b3c7063993940210cc6b74cdfaba1080</api_name><description>Audience for the list: All for the Workspace: Claim Management</description><name>Audience for list b3c7063993940210cc6b74cdfaba1080</name><role_names/><roles>2ffd9f3f4788065014300592e36d43b5,6ffd9f3f4788065014300592e36d43cc,a7fd9f3f4788065014300592e36d43ba</roles><sys_class_name>sys_ux_applicability</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 12:02:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6cc4967d93d40210cc6b74cdfaba1014</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Audience for list b3c7063993940210cc6b74cdfaba1080</sys_name><sys_overrides/><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ux_applicability_6cc4967d93d40210cc6b74cdfaba1014</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 12:02:41</sys_updated_on></sys_ux_applicability></record_update>]]></payload>
+        <payload_hash>1038143337</payload_hash>
+        <record_name>Audience for list b3c7063993940210cc6b74cdfaba1080</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 12:02:41</sys_created_on>
+        <sys_id>6cc4967d93d40210cc6b74cdfaba1016</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9d32b2500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 12:02:41</sys_updated_on>
+        <type>Audience</type>
+        <update_guid>60c4967d2fd40210600ecc7508186716</update_guid>
+        <update_guid_history>60c4967d2fd40210600ecc7508186716:1038143337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 12:44:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability">sys_ux_applicability</sys_db_object>
+        <sys_id>1bccf781326e46d8a0c00a0c9b321b21</sys_id>
+        <sys_metadata>6cc4967d93d40210cc6b74cdfaba1014</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list b3c7063993940210cc6b74cdfaba1080</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_6cc4967d93d40210cc6b74cdfaba1014</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_6cc4967d93d40210cc6b74cdfaba1014">6cc4967d93d40210cc6b74cdfaba1016</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 12:44:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

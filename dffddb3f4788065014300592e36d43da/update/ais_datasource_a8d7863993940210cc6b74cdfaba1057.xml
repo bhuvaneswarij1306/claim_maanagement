@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Claim Request Details Table</name>
+        <retention_policy/>
+        <source>x_1025229_claim_0_claim_request_details</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 11:06:09</sys_created_on>
+        <sys_id>a8d7863993940210cc6b74cdfaba1057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Request Details Table</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>ais_datasource_a8d7863993940210cc6b74cdfaba1057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 11:06:09</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

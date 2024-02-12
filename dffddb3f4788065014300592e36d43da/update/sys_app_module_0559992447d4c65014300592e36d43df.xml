@@ -20,6 +20,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
+        <require_confirmation>false</require_confirmation>
         <roles>admin,x_1025229_claim_0.accounts,x_1025229_claim_0.reviewers,x_1025229_claim_0.admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>

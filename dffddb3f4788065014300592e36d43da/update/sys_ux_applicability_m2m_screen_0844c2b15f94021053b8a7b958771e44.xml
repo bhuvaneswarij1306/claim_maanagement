@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">8c44c2b16d940210e4ebebe6f80c394c</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">8044c2b1c694021051ea1de5cb8f5944</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-12 10:50:35</sys_created_on>
+        <sys_id>0844c2b15f94021053b8a7b958771e44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_0844c2b15f94021053b8a7b958771e44</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:50:35</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

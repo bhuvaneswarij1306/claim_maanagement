@@ -41,7 +41,7 @@
         <update_guid_history>b25bfcd814d086506b45d379130aba07:326099796</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Claim Request">216bfcd847d0865014300592e36d43d8</sys_audit_delete>
+        <sys_audit_delete display_value="">216bfcd847d0865014300592e36d43d8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 13:41:23</sys_created_on>

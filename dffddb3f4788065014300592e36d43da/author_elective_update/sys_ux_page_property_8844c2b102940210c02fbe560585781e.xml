@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">fb3482b193940210cc6b74cdfaba10bb</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Search Page">c844c2b15094021093e9034accb5063e</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-12 10:50:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>8844c2b102940210c02fbe560585781e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ux_page_property_8844c2b102940210c02fbe560585781e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:50:36</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1025229_claim_0.fb3482b193940210cc6b74cdfaba10bb.route.chrome_header.c844c2b15094021093e9034accb5063e</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ux_page_property_8844c2b102940210c02fbe560585781e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">fb3482b193940210cc6b74cdfaba10bb</page><required_translations>[]</required_translations><route display_value="Search Page">c844c2b15094021093e9034accb5063e</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-02-12 10:50:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>8844c2b102940210c02fbe560585781e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ux_page_property_8844c2b102940210c02fbe560585781e</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-12 10:50:36</sys_updated_on><type>json</type><unique_name>x_1025229_claim_0.fb3482b193940210cc6b74cdfaba10bb.route.chrome_header.c844c2b15094021093e9034accb5063e</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}&#13;
+</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1027280488</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>cbbc091293000210cc6b74cdfaba10a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-02-01 09:49:16</sys_created_on>
+        <sys_id>b3758a3593940210cc6b74cdfaba1049</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18d641295600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>73758a354c9402103470ece09cf3cb49</update_guid>
+        <update_guid_history>73758a354c9402103470ece09cf3cb49:-1027280488</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-12 10:56:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>05417523bdde443f8377f2d7600505f9</sys_id>
+        <sys_metadata>8844c2b102940210c02fbe560585781e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_8844c2b102940210c02fbe560585781e</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_8844c2b102940210c02fbe560585781e">b3758a3593940210cc6b74cdfaba1049</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:56:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

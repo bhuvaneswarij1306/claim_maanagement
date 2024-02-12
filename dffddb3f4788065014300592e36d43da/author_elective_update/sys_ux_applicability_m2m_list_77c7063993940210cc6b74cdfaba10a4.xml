@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
+    <sys_ux_applicability_m2m_list action="DELETE">
+        <active>true</active>
+        <applicability display_value="Audience for app claim-management">6fc7063993940210cc6b74cdfaba1006</applicability>
+        <list display_value="Unassigned">ffc7063993940210cc6b74cdfaba10a1</list>
+        <order>100</order>
+        <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 11:06:07</sys_created_on>
+        <sys_id>77c7063993940210cc6b74cdfaba10a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_list_77c7063993940210cc6b74cdfaba10a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 11:06:07</sys_updated_on>
+    </sys_ux_applicability_m2m_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ux_applicability_m2m_list_77c7063993940210cc6b74cdfaba10a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list"><sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Audience for app claim-management">6fc7063993940210cc6b74cdfaba1006</applicability><list display_value="Unassigned">ffc7063993940210cc6b74cdfaba10a1</list><order>100</order><sys_class_name>sys_ux_applicability_m2m_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 11:06:07</sys_created_on><sys_id>77c7063993940210cc6b74cdfaba10a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ux_applicability_m2m_list_77c7063993940210cc6b74cdfaba10a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 11:06:07</sys_updated_on></sys_ux_applicability_m2m_list></record_update>]]></payload>
+        <payload_hash>-788860880</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 11:06:07</sys_created_on>
+        <sys_id>33c7063993940210cc6b74cdfaba10a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9cfee5690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 11:06:07</sys_updated_on>
+        <type>List Applicability</type>
+        <update_guid>37c706390194021004be2b06b56b0ca5</update_guid>
+        <update_guid_history>37c706390194021004be2b06b56b0ca5:-788860880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 12:02:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_list">sys_ux_applicability_m2m_list</sys_db_object>
+        <sys_id>002a522d9b9442ac8000af6d878952a1</sys_id>
+        <sys_metadata>77c7063993940210cc6b74cdfaba10a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_list_77c7063993940210cc6b74cdfaba10a4</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_list_77c7063993940210cc6b74cdfaba10a4">33c7063993940210cc6b74cdfaba10a6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 12:02:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

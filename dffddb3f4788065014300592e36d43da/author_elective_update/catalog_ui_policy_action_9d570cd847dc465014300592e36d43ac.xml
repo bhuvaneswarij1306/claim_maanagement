@@ -51,7 +51,7 @@
         <update_guid_history>ee678cd87ddc46509785baca8a54452b:-1424138191</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="dose">d565585c4710865014300592e36d4394</sys_audit_delete>
+        <sys_audit_delete display_value="">d565585c4710865014300592e36d4394</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 10:55:21</sys_created_on>

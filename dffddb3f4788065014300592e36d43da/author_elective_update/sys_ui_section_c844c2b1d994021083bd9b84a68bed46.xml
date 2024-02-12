@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="c844c2b1d994021083bd9b84a68bed46" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1025229_claim_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-12 10:50:34</sys_created_on>
+            <sys_id>0444c2b1da9402104f10756e91945e47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="4044c2b1a694021003df447f95816c47">c844c2b1d994021083bd9b84a68bed46</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-12 10:50:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-12 10:50:34</sys_created_on>
+            <sys_id>0c44c2b1309402102c580e25cfaa6247</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="4044c2b1a694021003df447f95816c47">c844c2b1d994021083bd9b84a68bed46</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-12 10:50:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2024-02-12 10:50:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c844c2b1d994021083bd9b84a68bed46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+            <sys_update_name>sys_ui_section_c844c2b1d994021083bd9b84a68bed46</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2024-02-12 10:50:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_1025229_claim_0)" name="custom_portal_approval_x_1025229_claim_0">4044c2b1a694021003df447f95816c47</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ui_section_c844c2b1d994021083bd9b84a68bed46</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="c844c2b1d994021083bd9b84a68bed46" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1025229_claim_0"><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>system</sys_created_by><sys_created_on>2024-02-12 10:50:34</sys_created_on><sys_id>0444c2b1da9402104f10756e91945e47</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="4044c2b1a694021003df447f95816c47">c844c2b1d994021083bd9b84a68bed46</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-12 10:50:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sysapproval</element><position>1</position><sys_created_by>system</sys_created_by><sys_created_on>2024-02-12 10:50:34</sys_created_on><sys_id>0c44c2b1309402102c580e25cfaa6247</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="4044c2b1a694021003df447f95816c47">c844c2b1d994021083bd9b84a68bed46</sys_ui_section><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-12 10:50:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sysapproval_approver</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2024-02-12 10:50:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c844c2b1d994021083bd9b84a68bed46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sysapproval_approver</sys_name><sys_overrides/><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ui_section_c844c2b1d994021083bd9b84a68bed46</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2024-02-12 10:50:34</sys_updated_on><sys_user/><title>false</title><view display_value="Custom portal (x_1025229_claim_0)" name="custom_portal_approval_x_1025229_claim_0">4044c2b1a694021003df447f95816c47</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1845950460</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>cbbc091293000210cc6b74cdfaba10a8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-02-01 09:49:16</sys_created_on>
+        <sys_id>ca754a3593940210cc6b74cdfaba108b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18d641295600000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>8a754a3599940210a950340e9500588b</update_guid>
+        <update_guid_history>8a754a3599940210a950340e9500588b:1845950460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-02-12 10:55:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>71218b0de14c4b16b3d3d2670c0c4d99</sys_id>
+        <sys_metadata>c844c2b1d994021083bd9b84a68bed46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Sysapproval Approver">2a463ca03cb1311068bcf327dfe37fda</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c844c2b1d994021083bd9b84a68bed46</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c844c2b1d994021083bd9b84a68bed46">ca754a3593940210cc6b74cdfaba108b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:55:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

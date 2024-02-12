@@ -42,7 +42,7 @@
         <update_guid_history>d573aff36fc80650c06feda44fc1608a:-2027697799</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1025229_claim_0_claim_details.x_1025229_claim_0.admin">0637e4144790865014300592e36d430b</sys_audit_delete>
+        <sys_audit_delete display_value="">0637e4144790865014300592e36d430b</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 12:13:13</sys_created_on>

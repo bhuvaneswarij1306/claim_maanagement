@@ -78,7 +78,7 @@
         <update_guid_history>e231101862108650fc4de9d4b3a28a96:2082668456,ae509c94f1108650af49145d20724e42:-1576669880,38bf00945c10865022cbd1ff979fd4a7:-1823881341,e93f0454c8108650a60f60bc72b02d5f:-1576669880,6fa90c9cfddc4650994169ece97a54c9:90689227,fb99c89ce2dc46503b8b4d333571f649:1434718070</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Show when for subfields">7565585c4710865014300592e36d43f2</sys_audit_delete>
+        <sys_audit_delete display_value="">7565585c4710865014300592e36d43f2</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 10:55:22</sys_created_on>

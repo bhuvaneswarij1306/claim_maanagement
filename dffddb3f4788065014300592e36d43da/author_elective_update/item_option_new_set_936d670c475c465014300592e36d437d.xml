@@ -52,7 +52,7 @@
         <update_guid_history>58379cdc81108650e2566a01cb2f6a91:1576476253,bb123f800c9c4650e7b204871f3dfaae:1785174556,6b02f700fc9c465008d4ae627f7d262c:1993872859,fae1bbccf55c465003457b1fe7f12b98:-2092396134,a4813700c19c4650b9ab199164da04cd:-1883697831,cbcfabcc0f5c46507ce71b5950ea36c9:-1674999528,e1afe300d99c46500536ff2852c0a0db:407971422,58afe300a79c46503cb99f7f6501cd6c:616669725,228f6300439c465023bcc3b760af659d:825368028,ca6fafcc125c46504824bb6ed9466ac8:1034066331,843fabccf25c46505bc92f418e15fb85:1242764634,ea8eef8c6a5c4650f5be437507c2640a:1451462937,ee6eeb8c3f5c4650cdb9453c1ed267a5:1660161240,6c9d6f0c515c4650e10522a04404dc78:1868859543,909d6f0c9f5c4650b057df7fc40d156c:2077557846,d89d67c8025c4650baa5307a05be81e0:-1735526151</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Claim information">537754104750865014300592e36d431e</sys_audit_delete>
+        <sys_audit_delete display_value="">537754104750865014300592e36d431e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 11:04:29</sys_created_on>

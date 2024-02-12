@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1025229_claim_0.ltadets</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ltadets</name>
+        <script><![CDATA[var ltadets = Class.create();
+ltadets.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	writeToLta: function(placeVisited, fromDate, toDate){
+		var ltagr = new GlideRecord('x_1025229_claim_0_claim_lta');
+		ltagr.initialize();
+		ltagr.place_visited = placeVisited;
+		ltagr.date_of_journey_from_date = fromDate;
+		ltagr.date_of_journey_to_date = toDate;
+
+		if(ltagr.insert()){
+			return ltagr.getUniqueValue();
+		}
+		else{
+			gs.error('Failed To Insert Record');
+			return null;
+		}
+	},
+		getLtaData: function(ltaRecordSysId){
+			var ltagr = new GlideRecord('x_1025229_claim_0_claim_lta');
+			if(ltaGr.get(ltaRecordSysId)){
+				return{
+					placeVisited : ltagr.place_visited,
+					fromDate: ltagr.date_of_journey_from_date,
+					toDate: ltagr.date_of_journey_to_date
+				};
+			}
+			else{
+				gs.error('failed to retrive LTA record');
+				return null
+			}
+		},
+	
+    type: 'ltadets'
+});
+
+
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 07:05:30</sys_created_on>
+        <sys_id>bc80d53d93500210cc6b74cdfaba10d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ltadets</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_script_include_bc80d53d93500210cc6b74cdfaba10d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 07:17:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

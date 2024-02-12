@@ -51,7 +51,7 @@
         <update_guid_history>8573c008f95c0650baf6e927f005d1e2:-1103113898</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="covid_vaccination">646703cc4798465014300592e36d4331</sys_audit_delete>
+        <sys_audit_delete display_value="">646703cc4798465014300592e36d4331</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 05:14:30</sys_created_on>

@@ -78,7 +78,7 @@
         <update_guid_history>f8609054ac108650e93e91490ec57776:2016607815,b7509c945c108650fa2064e25beaf4a7:1286950412,9796cc982fdc465031941343b1847c45:-1090465461</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Show when for Covid Vaccination dose">a565585c4710865014300592e36d43a1</sys_audit_delete>
+        <sys_audit_delete display_value="">a565585c4710865014300592e36d43a1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 10:55:21</sys_created_on>

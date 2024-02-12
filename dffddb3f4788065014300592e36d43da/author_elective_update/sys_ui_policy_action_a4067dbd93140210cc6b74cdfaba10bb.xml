@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>remarks</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 09:48:20</sys_created_on>
+        <sys_id>a4067dbd93140210cc6b74cdfaba10bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>remarks</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a4067dbd93140210cc6b74cdfaba10bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 09:48:45</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <ui_policy display_value="show when for common fields">2755fd7d93140210cc6b74cdfaba1065</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ui_policy_action_a4067dbd93140210cc6b74cdfaba10bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>remarks</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-12 09:48:20</sys_created_on><sys_id>a4067dbd93140210cc6b74cdfaba10bb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>remarks</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ui_policy_action_a4067dbd93140210cc6b74cdfaba10bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-12 09:48:45</sys_updated_on><table>x_1025229_claim_0_claim_request_details</table><ui_policy display_value="show when for common fields">2755fd7d93140210cc6b74cdfaba1065</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1465168118</payload_hash>
+        <record_name>remarks</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 09:48:45</sys_created_on>
+        <sys_id>2a1631fd93140210cc6b74cdfaba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d9cb8121e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 09:48:45</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ae1631fd7f1402106fd16b56a167401d</update_guid>
+        <update_guid_history>ae1631fd7f1402106fd16b56a167401d:-1465168118,a0067dbd7e140210133957da539c34bd:1999312928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-12 10:18:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>237ded0543dc4f90a0413abb86dd27a4</sys_id>
+        <sys_metadata>a4067dbd93140210cc6b74cdfaba10bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remarks</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_a4067dbd93140210cc6b74cdfaba10bb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_a4067dbd93140210cc6b74cdfaba10bb">2a1631fd93140210cc6b74cdfaba101e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-12 10:18:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

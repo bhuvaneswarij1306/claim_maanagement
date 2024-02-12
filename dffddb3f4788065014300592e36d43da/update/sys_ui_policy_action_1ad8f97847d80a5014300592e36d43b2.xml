@@ -3,6 +3,8 @@
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field>lta_details.date_of_journey_to_date</field>
+        <field_message/>
+        <field_message_type/>
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -18,6 +20,8 @@
         <sys_updated_on>2024-02-09 07:26:49</sys_updated_on>
         <table>x_1025229_claim_0_claim_request_details</table>
         <ui_policy display_value="Show when for LTA Details">56d8b97847d80a5014300592e36d43d1</ui_policy>
+        <value/>
+        <value_action/>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

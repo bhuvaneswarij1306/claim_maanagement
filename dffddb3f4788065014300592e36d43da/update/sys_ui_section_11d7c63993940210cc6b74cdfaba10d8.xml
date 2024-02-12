@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="New section 1" section_id="11d7c63993940210cc6b74cdfaba10d8" sys_domain="global" table="x_1025229_claim_0_claim_request_details" version="3" view="workspace-claim-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>d1d7c63993940210cc6b74cdfaba10da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>59d7c63993940210cc6b74cdfaba10da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sub_category</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>ddd7c63993940210cc6b74cdfaba10da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>55d7c63993940210cc6b74cdfaba10db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>d9d7c63993940210cc6b74cdfaba10db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>51d7c63993940210cc6b74cdfaba10dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>claim_date</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>d5d7c63993940210cc6b74cdfaba10dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dose</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>5dd7c63993940210cc6b74cdfaba10dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hospital_name</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>d1d7c63993940210cc6b74cdfaba10dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>injury_name</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>59d7c63993940210cc6b74cdfaba10dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>documents</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>ddd7c63993940210cc6b74cdfaba10dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>55d7c63993940210cc6b74cdfaba10de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bill_no</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>d9d7c63993940210cc6b74cdfaba10de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>51d7c63993940210cc6b74cdfaba10df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remarks</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>9dd7c63993940210cc6b74cdfaba10eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>insurance_provider_name</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>15d7c63993940210cc6b74cdfaba10ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>treatment_details</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>99d7c63993940210cc6b74cdfaba10ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>11d7c63993940210cc6b74cdfaba10ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>95d7c63993940210cc6b74cdfaba10ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.place_visited</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>1dd7c63993940210cc6b74cdfaba10ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.date_of_journey_from_date</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>91d7c63993940210cc6b74cdfaba10ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>19d7c63993940210cc6b74cdfaba10ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.mode_of_travel</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>9dd7c63993940210cc6b74cdfaba10ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.date_of_journey_to_date</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>15d7c63993940210cc6b74cdfaba10ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>99d7c63993940210cc6b74cdfaba10ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.major_count</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>11d7c63993940210cc6b74cdfaba10f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.major_ticket_cost</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>95d7c63993940210cc6b74cdfaba10f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.major_total_cose</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>1dd7c63993940210cc6b74cdfaba10f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.minor_count</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>91d7c63993940210cc6b74cdfaba10f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.minor_ticket_cost</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>19d7c63993940210cc6b74cdfaba10f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lta_details.minor_total_cost</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_id>9dd7c63993940210cc6b74cdfaba10f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1025229_claim_0_claim_request_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d7c63993940210cc6b74cdfaba10d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1025229_claim_0_claim_request_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+            <sys_update_name>sys_ui_section_11d7c63993940210cc6b74cdfaba10d8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Claim Management 0" name="workspace-claim-management-0">b6c7823903940210b9fa4fd0a95371e1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

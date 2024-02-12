@@ -70,7 +70,7 @@
         <update_guid_history>70074b8c0598465051593150194d7569:1977156205,a0074b8c219846508829ec6ddf89b34d:608177512</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'covid_vaccination' visible depending on 'sub_category'">676703cc4798465014300592e36d43fb</sys_audit_delete>
+        <sys_audit_delete display_value="">676703cc4798465014300592e36d43fb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-07 05:14:43</sys_created_on>
