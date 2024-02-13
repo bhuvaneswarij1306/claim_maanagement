@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_1025229_claim_0_claim_request_details">sub_category=Gym^EQ<item display_value="Gym" endquery="false" field="sub_category" goto="false" newquery="false" operator="=" or="false" value="Gym"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>400</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Show when condition based on category -  cash and subcategory - gym</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 09:26:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>048a72c693dc4210cc6b74cdfaba100e</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Show when condition based on category -  cash and subcategory - gym</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ui_policy_048a72c693dc4210cc6b74cdfaba100e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 12:20:21</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ui_policy_048a72c693dc4210cc6b74cdfaba100e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="x_1025229_claim_0_claim_request_details"&gt;sub_category=Gym^EQ&lt;item display_value="Gym" endquery="false" field="sub_category" goto="false" newquery="false" operator="=" or="false" value="Gym"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;400&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Show when condition based on category -  cash and subcategory - gym&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 09:26:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;048a72c693dc4210cc6b74cdfaba100e&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show when condition based on category -  cash and subcategory - gym&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Claim Management" source="x_1025229_claim_0"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claim Management"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_048a72c693dc4210cc6b74cdfaba100e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-13 12:20:21&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_claim_0_claim_request_details&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1909209835</payload_hash>
+        <record_name>Show when condition based on category -  cash and subcategory - gym</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 12:20:21</sys_created_on>
+        <sys_id>4962e70e93908210cc6b74cdfaba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da26939c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 12:20:21</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>cd62e70e349082104e43eaf835ffd70d</update_guid>
+        <update_guid_history>cd62e70e349082104e43eaf835ffd70d:1909209835,f0fd9386da908210308d94f71ddd5a9c:680021856,58ad1b46399082101fbb8485082613cc:1909209835,da669fcac250821069b05dc51badf5f3:-514382183,da951f8ab65082101413624b07d156f6:114248772,87c18f024110821048588b70b9e60828:-514382183,297147029e1082109dd9f8db1af316ed:114248772,5f9cfe4a39dc42108fd5a01ca50ae523:-514382183,0c8a72c6d2dc4210fff094e3c0741412:114248772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 13:35:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>921fb9e7e30946809bb655d47b1e4400</sys_id>
+        <sys_metadata>048a72c693dc4210cc6b74cdfaba100e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show when condition based on category -  cash and subcategory - gym</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Claim Request Details">ffa9e0d44790865014300592e36d4327</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_048a72c693dc4210cc6b74cdfaba100e</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_048a72c693dc4210cc6b74cdfaba100e">4962e70e93908210cc6b74cdfaba100e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 13:35:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_1025229_claim_0.claimFunction</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>claimFunction</name>
+        <script><![CDATA[var claimFunction = Class.create();
+claimFunction.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    setLTAValues: function() {
+
+		var lta = JSON.parse(this.getParameter);
+		var gr = new GlideRecord('x_1025229_claim_0_claim_lta');
+		
+		gr.initialize();
+		gr.added_by = lta.added_by;
+		gr.active = true;
+		gr.date_of_journey_from_date = lta.date_of_journey_from_date;
+		gr.major_count = lta.major_count;
+		gr.major_ticket_cost = lta.major_ticket_cost;
+		gr.minor_count = lta.minor_count;
+		gr.minor_ticket_cost = lta.minor_ticket_cost;
+		gr.mode_of_travel = lta.mode_of_travel;
+		gr.place_visited = lta.place_visited;
+		gr.date_of_journey_to_date = lta.date_of_journey_to_date;
+		
+		gr.info(lta);
+		//gr.remarks = lta.remarks;
+		//gr.supporting_documents = lta.supporting_documents;
+		//gr.total_amount_in_words = lta.total_amount_in_words;
+		//gr.total_cost = lta.total_cost;
+		//gr.total_count = lta.total_count;
+		
+
+		gr.insert();
+
+		return true;
+		
+    },
+
+    type: 'claimFunction'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 10:32:47</sys_created_on>
+        <sys_id>ee8683c693108210cc6b74cdfaba10dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>claimFunction</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_script_include_ee8683c693108210cc6b74cdfaba10dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 14:04:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>OnChange of Category</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var category = g_form.getValue('category');
+    // var subCategory = g_form.getValue('sub_category');
+    // if (category == 'Cash' && subCategory == 'Covid Vaccination') {
+    //     g_form.setVisible('claim_name', true);
+    //     g_form.setVisible('bill_no', true);
+    //     g_form.setVisible('claim_date', true);
+    //     g_form.setVisible('remarks', true);
+    //     g_form.setVisible('documents', true);
+    //     g_form.setVisible('dose', true);
+    // }
+    if (category === 'Insurance') {
+        g_form.setVisible('claim_name', true);
+        g_form.setVisible('insurance_provider_name', true);
+        g_form.setVisible('hospital_name', true);
+        g_form.setVisible('injury_name', true);
+        g_form.setVisible('treatment_details', true);
+        g_form.setVisible('remarks', true);
+        g_form.setVisible('documents', true);
+
+    } else if (category === 'Petrol' || category === 'Broadband') {
+        g_form.setVisible('claim_name', true);
+        g_form.setVisible('bill_no', true);
+        g_form.setVisible('claim_date', true);
+        g_form.setVisible('remarks', true);
+        g_form.setVisible('documents', true);
+        // g_form.setVisible('dose', true);
+    }
+    // else if ((category == 'Cash' && subCategory == 'Gym') || (category == 'Cash' && subCategory == 'Others')) {
+    //     g_form.setVisible('claim_name', true);
+    //     g_form.setVisible('bill_no', true);
+    //     g_form.setVisible('claim_date', true);
+    //     g_form.setVisible('remarks', true);
+    //     g_form.setVisible('documents', true);
+    // } 
+    else if (category === '') {
+        g_form.setVisible('claim_name', false);
+        g_form.setVisible('bill_no', false);
+        g_form.setVisible('claim_date', false);
+        g_form.setVisible('remarks', false);
+        g_form.setVisible('documents', false);
+        g_form.setVisible('dose', false);
+        g_form.setVisible('insurance_provider_name', false);
+        g_form.setVisible('hospital_name', false);
+        g_form.setVisible('injury_name', false);
+        g_form.setVisible('treatment_details', false);
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 06:36:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a68d8a8a93d84210cc6b74cdfaba1098</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>OnChange of Category</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_script_client_a68d8a8a93d84210cc6b74cdfaba1098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 07:30:51</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_script_client_a68d8a8a93d84210cc6b74cdfaba1098</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;OnChange of Category&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var category = g_form.getValue('category');
+    // var subCategory = g_form.getValue('sub_category');
+    // if (category == 'Cash' &amp;&amp; subCategory == 'Covid Vaccination') {
+    //     g_form.setVisible('claim_name', true);
+    //     g_form.setVisible('bill_no', true);
+    //     g_form.setVisible('claim_date', true);
+    //     g_form.setVisible('remarks', true);
+    //     g_form.setVisible('documents', true);
+    //     g_form.setVisible('dose', true);
+    // }
+    if (category === 'Insurance') {
+        g_form.setVisible('claim_name', true);
+        g_form.setVisible('insurance_provider_name', true);
+        g_form.setVisible('hospital_name', true);
+        g_form.setVisible('injury_name', true);
+        g_form.setVisible('treatment_details', true);
+        g_form.setVisible('remarks', true);
+        g_form.setVisible('documents', true);
+
+    } else if (category === 'Petrol' || category === 'Broadband') {
+        g_form.setVisible('claim_name', true);
+        g_form.setVisible('bill_no', true);
+        g_form.setVisible('claim_date', true);
+        g_form.setVisible('remarks', true);
+        g_form.setVisible('documents', true);
+        // g_form.setVisible('dose', true);
+    }
+    // else if ((category == 'Cash' &amp;&amp; subCategory == 'Gym') || (category == 'Cash' &amp;&amp; subCategory == 'Others')) {
+    //     g_form.setVisible('claim_name', true);
+    //     g_form.setVisible('bill_no', true);
+    //     g_form.setVisible('claim_date', true);
+    //     g_form.setVisible('remarks', true);
+    //     g_form.setVisible('documents', true);
+    // } 
+    else if (category === '') {
+        g_form.setVisible('claim_name', false);
+        g_form.setVisible('bill_no', false);
+        g_form.setVisible('claim_date', false);
+        g_form.setVisible('remarks', false);
+        g_form.setVisible('documents', false);
+        g_form.setVisible('dose', false);
+        g_form.setVisible('insurance_provider_name', false);
+        g_form.setVisible('hospital_name', false);
+        g_form.setVisible('injury_name', false);
+        g_form.setVisible('treatment_details', false);
+    }
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 06:36:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a68d8a8a93d84210cc6b74cdfaba1098&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;OnChange of Category&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Claim Management" source="x_1025229_claim_0"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claim Management"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a68d8a8a93d84210cc6b74cdfaba1098&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-13 07:30:51&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_claim_0_claim_request_details&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1487266796</payload_hash>
+        <record_name>OnChange of Category</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 07:30:51</sys_created_on>
+        <sys_id>1c206a82935c4210cc6b74cdfaba10df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da1602e380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 07:30:51</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>90206a82465c4210c61fe7682f4e66df</update_guid>
+        <update_guid_history>90206a82465c4210c61fe7682f4e66df:1487266796,548eda02e25c421021d2e7314f90d035:-517005108,df6d928ead1c4210d81a47d0e4616fe9:926036498,bd4d168ee61c4210f7673bc8bcf33b40:2039677939,578c1e4e811c42102329e56539d9c849:1868833682,593c56c2b31c421037486f4f81a5c2b5:-1957369708,db841282711c4210b93e8691c98d0915:1811981648,8cc39a8a7cd84210c6453bd2f907512c:-2116305710</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 07:31:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>553ad2239cd94208a82086757bf00f64</sys_id>
+        <sys_metadata>a68d8a8a93d84210cc6b74cdfaba1098</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnChange of Category</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Claim Request Details">ffa9e0d44790865014300592e36d4327</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_script_client_a68d8a8a93d84210cc6b74cdfaba1098</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a68d8a8a93d84210cc6b74cdfaba1098">1c206a82935c4210cc6b74cdfaba10df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 07:31:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

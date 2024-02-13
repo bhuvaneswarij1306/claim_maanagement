@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="labelCacheCleanUpExecuted=true" db_object_id="c49b1d3847580a5014300592e36d43f4" label="Claim LTA" max_length="40" name="x_1025229_claim_0_claim_lta" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Added By" max_length="32" name="added_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Claim Details" max_length="32" name="claim_details" reference="x_1025229_claim_0_claim_request_details" type="reference"/>
         <element label="Date of Journey From Date" max_length="40" name="date_of_journey_from_date" type="string"/>
         <element label="Date of Journey To Date" max_length="40" name="date_of_journey_to_date" type="string"/>
@@ -14,6 +16,9 @@
         <element label="Place Visited" max_length="50" name="place_visited" type="string"/>
         <element label="Supporting Documents" max_length="255" name="supporting_documents" type="file_attachment"/>
         <index name="index">
+            <element name="added_by"/>
+        </index>
+        <index name="index2">
             <element name="claim_details"/>
         </index>
     </element>

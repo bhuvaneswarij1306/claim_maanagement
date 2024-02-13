@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>bill_no</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 08:07:03</sys_created_on>
+        <sys_id>ba6826ce935c4210cc6b74cdfaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bill_no</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_ba6826ce935c4210cc6b74cdfaba1043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 08:07:03</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <ui_policy display_value="Show when based on category - cash and sub category - covid vaccination">f668e2ce935c4210cc6b74cdfaba10be</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ui_policy_action_ba6826ce935c4210cc6b74cdfaba1043</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>bill_no</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-13 08:07:03</sys_created_on><sys_id>ba6826ce935c4210cc6b74cdfaba1043</sys_id><sys_mod_count>0</sys_mod_count><sys_name>bill_no</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_ui_policy_action_ba6826ce935c4210cc6b74cdfaba1043</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-13 08:07:03</sys_updated_on><table>x_1025229_claim_0_claim_request_details</table><ui_policy display_value="Show when based on category - cash and sub category - covid vaccination">f668e2ce935c4210cc6b74cdfaba10be</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1585953725</payload_hash>
+        <record_name>bill_no</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 08:07:03</sys_created_on>
+        <sys_id>366826ce935c4210cc6b74cdfaba1046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da18154120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 08:07:03</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>3a6826ce785c42103ea0e41a69b91645</update_guid>
+        <update_guid_history>3a6826ce785c42103ea0e41a69b91645:-1585953725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 13:35:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>40c6be8ec3b44190ae6d3b8cd35b1900</sys_id>
+        <sys_metadata>ba6826ce935c4210cc6b74cdfaba1043</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bill_no</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_ba6826ce935c4210cc6b74cdfaba1043</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_ba6826ce935c4210cc6b74cdfaba1043">366826ce935c4210cc6b74cdfaba1046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 13:35:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

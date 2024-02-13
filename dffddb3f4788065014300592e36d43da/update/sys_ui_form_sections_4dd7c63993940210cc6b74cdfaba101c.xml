@@ -38,7 +38,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1025229_claim_0_claim_request_details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">4dd7c63993940210cc6b74cdfaba101c</sys_ui_form>
-            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
+            <sys_ui_section caption="Claim Details" display_value="Claim Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">11d7c63993940210cc6b74cdfaba10d8</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
         </sys_ui_form_section>

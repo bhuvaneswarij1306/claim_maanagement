@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>false</active>
+        <conditions table="x_1025229_claim_0_claim_request_details">sub_category=Covid Vaccination^EQ<item display_value="Covid Vaccination" endquery="false" field="sub_category" goto="false" newquery="false" operator="=" or="false" value="Covid Vaccination"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {}]]></script_false>
+        <script_true><![CDATA[function onCondition() {}]]></script_true>
+        <set_values/>
+        <short_description>Show when based on category - cash and sub category - covid vaccination</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 08:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f668e2ce935c4210cc6b74cdfaba10be</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Show when based on category - cash and sub category - covid vaccination</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ui_policy_f668e2ce935c4210cc6b74cdfaba10be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 12:20:18</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_ui_policy_f668e2ce935c4210cc6b74cdfaba10be</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;conditions table="x_1025229_claim_0_claim_request_details"&gt;sub_category=Covid Vaccination^EQ&lt;item display_value="Covid Vaccination" endquery="false" field="sub_category" goto="false" newquery="false" operator="=" or="false" value="Covid Vaccination"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Show when based on category - cash and sub category - covid vaccination&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-02-13 08:07:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f668e2ce935c4210cc6b74cdfaba10be&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show when based on category - cash and sub category - covid vaccination&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Claim Management" source="x_1025229_claim_0"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Claim Management"&gt;dffddb3f4788065014300592e36d43da&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f668e2ce935c4210cc6b74cdfaba10be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-13 12:20:18&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_claim_0_claim_request_details&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1225147299</payload_hash>
+        <record_name>Show when based on category - cash and sub category - covid vaccination</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 12:20:18</sys_created_on>
+        <sys_id>2862e30e93908210cc6b74cdfaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da2692f400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 12:20:18</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>ac62e30eda9082102ddd805bd68e5c43</update_guid>
+        <update_guid_history>ac62e30eda9082102ddd805bd68e5c43:-1225147299,c7ed1786a9908210f12ee4ba0c8b4f64:-2086835822,7c7d1b46b6908210d0da00a0edbf1c8c:-1225147299,de66dfca79508210fa59e6d47cddf341:600632333,56951f8aa25082102acf4cf1b23726fa:880718072,03c18f02b81082100501add8db9b732c:600632333,a171470276108210ada2584b53a19cf1:880718072,d79cfe4a25dc421003dfe6705b4eca27:600632333,b268e2ce215c421003797e66ffe3a0c2:880718072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-13 13:35:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>4232ac2bed8d4384bf9fabd077cab810</sys_id>
+        <sys_metadata>f668e2ce935c4210cc6b74cdfaba10be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show when based on category - cash and sub category - covid vaccination</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent display_value="Claim Request Details">ffa9e0d44790865014300592e36d4327</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_f668e2ce935c4210cc6b74cdfaba10be</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_f668e2ce935c4210cc6b74cdfaba10be">2862e30e93908210cc6b74cdfaba1044</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-13 13:35:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

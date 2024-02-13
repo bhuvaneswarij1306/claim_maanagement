@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="total_minor_cost" label="Total Minor Cost" language="en" table="x_1025229_claim_0_claim_request_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>total_minor_cost</element>
+            <help/>
+            <hint/>
+            <label>Total Minor Cost</label>
+            <language>en</language>
+            <name>x_1025229_claim_0_claim_request_details</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-13 14:26:51</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Total Minor Cost</sys_name>
+            <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+            <sys_update_name>sys_documentation_x_1025229_claim_0_claim_request_details_total_minor_cost_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-13 14:29:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
