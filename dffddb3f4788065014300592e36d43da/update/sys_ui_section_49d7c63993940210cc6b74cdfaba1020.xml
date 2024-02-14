@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="49d7c63993940210cc6b74cdfaba1020" sys_domain="global" table="x_1025229_claim_0_claim_request_details" version="3" view="workspace-claim-management-0">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>true</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-14 13:14:15</sys_created_on>
+            <sys_id>2858b46293dcc210cc6b74cdfaba10e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-14 13:14:15</sys_updated_on>
+            <text>Please fill all the fields without fail</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
-            <sys_id>01d7c63993940210cc6b74cdfaba1024</sys_id>
+            <sys_created_on>2024-02-14 13:14:15</sys_created_on>
+            <sys_id>a858b46293dcc210cc6b74cdfaba10e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">49d7c63993940210cc6b74cdfaba1020</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_updated_on>2024-02-14 13:14:15</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,15 +29,43 @@
             <element>request_owner</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
-            <sys_id>8dd7c63993940210cc6b74cdfaba10d2</sys_id>
+            <sys_created_on>2024-02-14 13:14:15</sys_created_on>
+            <sys_id>a058b46293dcc210cc6b74cdfaba10e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">49d7c63993940210cc6b74cdfaba1020</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_updated_on>2024-02-14 13:14:15</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>2858b46293dcc210cc6b74cdfaba10e0</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-14 13:14:15</sys_created_on>
+            <sys_id>a858b46293dcc210cc6b74cdfaba10e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">49d7c63993940210cc6b74cdfaba1020</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-14 13:14:15</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-14 13:14:15</sys_created_on>
+            <sys_id>a058b46293dcc210cc6b74cdfaba10e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">49d7c63993940210cc6b74cdfaba1020</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-14 13:14:15</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

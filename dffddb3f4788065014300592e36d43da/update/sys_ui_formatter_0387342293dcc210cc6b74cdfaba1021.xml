@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>activity.xml</formatter>
+        <name>Activities(Claim Requests)</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-14 13:12:19</sys_created_on>
+        <sys_id>0387342293dcc210cc6b74cdfaba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Activities(Claim Requests)</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_ui_formatter_0387342293dcc210cc6b74cdfaba1021</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:12:19</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

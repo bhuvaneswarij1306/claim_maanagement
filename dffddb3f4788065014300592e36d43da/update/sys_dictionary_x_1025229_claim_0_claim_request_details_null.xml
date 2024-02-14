@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes>labelCacheCleanUpExecuted=true</attributes>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_dictionary_x_1025229_claim_0_claim_request_details_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-12 11:06:07</sys_updated_on>
+        <sys_updated_on>2024-02-14 13:13:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

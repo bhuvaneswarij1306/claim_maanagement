@@ -18,59 +18,109 @@
     var subCategory = g_form.getValue('sub_category');
     var isNew = g_form.isNewRecord();
     if (isNew) {
-      	if (category === 'Petrol') {
+        if (category === 'Petrol') {
+            g_form.setVisible('claim_name', true);
+            g_form.setVisible('bill_no', true);
+            g_form.setVisible('claim_date', true);
+            g_form.setVisible('amount', true);
+            //g_form.setVisible('remarks', true);
+            g_form.setVisible('documents', true);
+
+			//  g_form.setMandatory('claim_name', true);
+            // g_form.setMandatory('bill_no', true);
+            // g_form.setMandatory('claim_date', true);
+            // g_form.setMandatory('amount', true);
+            // //g_form.setMandatory('remarks', true);
+            // g_form.setMandatory('documents', true);
+
+            g_form.setVisible('hospital_name', false);
+            g_form.setVisible('insurance_provider_name', false);
+            g_form.setVisible('injury_name', false);
+            g_form.setVisible('treatment_details', false);
+            g_form.setVisible('place_visited', false);
+            g_form.setVisible('mode_of_travel', false);
+            g_form.setVisible('date_of_journey_from_date', false);
+            g_form.setVisible('date_of_journey_to_date', false);
+            g_form.setVisible('major_count', false);
+            g_form.setVisible('major_ticket_cost_each', false);
+            g_form.setVisible('total_major_cost', false);
+            g_form.setVisible('minor_count', false);
+            g_form.setVisible('minor_ticket_cost_each', false);
+            g_form.setVisible('total_minor_cost', false);
+
+        } else if (category === 'LTA') {
+            g_form.setVisible('claim_name', false);
+            g_form.setVisible('bill_no', false);
+            g_form.setVisible('claim_date', false);
+            g_form.setVisible('amount', false);
+
+            g_form.setVisible('remarks', true);
+            g_form.setVisible('documents', true);
+            g_form.setVisible('place_visited', true);
+            g_form.setVisible('mode_of_travel', true);
+            g_form.setVisible('date_of_journey_from_date', true);
+            g_form.setVisible('date_of_journey_to_date', true);
+            g_form.setVisible('major_count', true);
+            g_form.setVisible('major_ticket_cost_each', true);
+            g_form.setVisible('total_major_cost', true);
+            g_form.setVisible('minor_count', true);
+            g_form.setVisible('minor_ticket_cost_each', true);
+            g_form.setVisible('total_minor_cost', true);
+
+			// //g_form.setMandatory('remarks', true);
+            // g_form.setMandatory('documents', true);
+            // g_form.setMandatory('place_visited', true);
+            // g_form.setMandatory('mode_of_travel', true);
+            // g_form.setMandatory('date_of_journey_from_date', true);
+            // g_form.setMandatory('date_of_journey_to_date', true);
+            // g_form.setMandatory('major_count', true);
+            // g_form.setMandatory('major_ticket_cost_each', true);
+            // g_form.setMandatory('total_major_cost', true);
+            // g_form.setMandatory('minor_count', true);
+            // g_form.setMandatory('minor_ticket_cost_each', true);
+            // g_form.setMandatory('total_minor_cost', true);
+
+
+            g_form.setVisible('dose', false);
+            g_form.setVisible('hospital_name', false);
+            g_form.setVisible('insurance_provider_name', false);
+            g_form.setVisible('injury_name', false);
+            g_form.setVisible('treatment_details', false);
+        } else if (category === 'Broadband') {
             g_form.setVisible('claim_name', true);
             g_form.setVisible('bill_no', true);
             g_form.setVisible('claim_date', true);
             g_form.setVisible('amount', true);
             g_form.setVisible('remarks', true);
             g_form.setVisible('documents', true);
-			g_form.setVisible('hospital_name', false);
-        g_form.setVisible('insurance_provider_name', false);
-        g_form.setVisible('injury_name', false);
-        g_form.setVisible('treatment_details', false);
-        } 
-		else if (category === 'LTA') {
-        g_form.setVisible('claim_name', false);
-        g_form.setVisible('bill_no', false);
-        g_form.setVisible('claim_date', false);
-        g_form.setVisible('amount', false);
-        g_form.setVisible('remarks', true);
-        g_form.setVisible('documents', true);
 
-		g_form.setVisible('place_visited',true);
-		g_form.setVisible('mode_of_travel',true);
-		g_form.setVisible('date_of_journey_from_date',true);
-		g_form.setVisible('date_of_journey_to_date',true);
-		g_form.setVisible('major_count',true);
-		g_form.setVisible('major_ticket_cost_each',true);
-		g_form.setVisible('total_major_cost',true);
-		g_form.setVisible('minor_count',true);
-		g_form.setVisible('minor_ticket_cost_each',true);
-		g_form.setVisible('total_minor_cost',true);
+			//  g_form.setMandatory('claim_name', true);
+            // g_form.setMandatory('bill_no', true);
+            // g_form.setMandatory('claim_date', true);
+            // g_form.setMandatory('amount', true);
+            // //g_form.setMandatory('remarks', true);
+            // g_form.setMandatory('documents', true);
 
-		g_form.setVisible('dose',false);
-		g_form.setVisible('hospital_name', false);
-        g_form.setVisible('insurance_provider_name', false);
-        g_form.setVisible('injury_name', false);
-        g_form.setVisible('treatment_details', false);
-    }	
-		else if (category === 'Broadband') {
-            g_form.setVisible('claim_name', true);
-            g_form.setVisible('bill_no', true);
-            g_form.setVisible('claim_date', true);
-            g_form.setVisible('amount', true);
-            g_form.setVisible('remarks', true);
-            g_form.setVisible('documents', true);
-			g_form.setVisible('hospital_name', false);
-        g_form.setVisible('insurance_provider_name', false);
-        g_form.setVisible('injury_name', false);
-        g_form.setVisible('treatment_details', false);
+
+            g_form.setVisible('hospital_name', false);
+            g_form.setVisible('insurance_provider_name', false);
+            g_form.setVisible('injury_name', false);
+            g_form.setVisible('treatment_details', false);
+            g_form.setVisible('place_visited', false);
+            g_form.setVisible('mode_of_travel', false);
+            g_form.setVisible('date_of_journey_from_date', false);
+            g_form.setVisible('date_of_journey_to_date', false);
+            g_form.setVisible('major_count', false);
+            g_form.setVisible('major_ticket_cost_each', false);
+            g_form.setVisible('total_major_cost', false);
+            g_form.setVisible('minor_count', false);
+            g_form.setVisible('minor_ticket_cost_each', false);
+            g_form.setVisible('total_minor_cost', false);
         } else if (category === 'Insurance') {
             g_form.setVisible('hospital_name', true);
             //g_form.setMandatory('hospital_name',true);
             g_form.setVisible('claim_name', true);
-			g_form.setVisible('bill_no', false);
+            g_form.setVisible('bill_no', false);
             g_form.setVisible('claim_date', false);
             g_form.setVisible('amount', false);
             g_form.setVisible('insurance_provider_name', true);
@@ -78,6 +128,29 @@
             g_form.setVisible('treatment_details', true);
             g_form.setVisible('documents', true);
             g_form.setVisible('remarks', true);
+
+			// g_form.setMandatory('hospital_name', true);
+            // g_form.setMandatory('claim_name', true);
+            // g_form.setMandatory('bill_no', false);
+            // g_form.setMandatory('claim_date', false);
+            // g_form.setMandatory('amount', false);
+            // g_form.setMandatory('insurance_provider_name', true);
+            // g_form.setMandatory('injury_name', true);
+            // g_form.setMandatory('treatment_details', true);
+            // g_form.setMandatory('documents', true);
+            // //g_form.setMandatory('remarks', true);
+
+
+            g_form.setVisible('place_visited', false);
+            g_form.setVisible('mode_of_travel', false);
+            g_form.setVisible('date_of_journey_from_date', false);
+            g_form.setVisible('date_of_journey_to_date', false);
+            g_form.setVisible('major_count', false);
+            g_form.setVisible('major_ticket_cost_each', false);
+            g_form.setVisible('total_major_cost', false);
+            g_form.setVisible('minor_count', false);
+            g_form.setVisible('minor_ticket_cost_each', false);
+            g_form.setVisible('total_minor_cost', false);
         } else {
             g_form.setVisible('hospital_name', false);
             g_form.setVisible('claim_name', false);
@@ -90,6 +163,16 @@
             g_form.setVisible('treatment_details', false);
             g_form.setVisible('documents', false);
             g_form.setVisible('remarks', false);
+            g_form.setVisible('place_visited', false);
+            g_form.setVisible('mode_of_travel', false);
+            g_form.setVisible('date_of_journey_from_date', false);
+            g_form.setVisible('date_of_journey_to_date', false);
+            g_form.setVisible('major_count', false);
+            g_form.setVisible('major_ticket_cost_each', false);
+            g_form.setVisible('total_major_cost', false);
+            g_form.setVisible('minor_count', false);
+            g_form.setVisible('minor_ticket_cost_each', false);
+            g_form.setVisible('total_minor_cost', false);
         }
     }
 
@@ -102,7 +185,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8982234e93908210cc6b74cdfaba10f0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Onchange Category</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -110,7 +193,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_script_client_8982234e93908210cc6b74cdfaba10f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-13 14:51:12</sys_updated_on>
+        <sys_updated_on>2024-02-14 12:55:50</sys_updated_on>
         <table>x_1025229_claim_0_claim_request_details</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

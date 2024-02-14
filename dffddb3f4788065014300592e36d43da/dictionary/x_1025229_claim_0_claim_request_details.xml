@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="labelCacheCleanUpExecuted=true" db_object_id="ffa9e0d44790865014300592e36d4327" label="Claim Request Details" max_length="40" name="x_1025229_claim_0_claim_request_details" text_index="true" type="collection">
+    <element attributes="labelCacheCleanUpExecuted=true" audit="true" db_object_id="ffa9e0d44790865014300592e36d4327" label="Claim Request Details" max_length="40" name="x_1025229_claim_0_claim_request_details" text_index="true" type="collection">
         <element label="Amount" max_length="40" name="amount" type="float"/>
         <element label="Bill no" max_length="40" name="bill_no" type="string"/>
         <element choice="3" label="Category" max_length="40" name="category" type="string">
@@ -16,7 +16,13 @@
         <element label="Date of journey - from date" max_length="255" name="date_of_journey_from_date" type="glide_date"/>
         <element label="date of journey - to date" max_length="40" name="date_of_journey_to_date" type="glide_date"/>
         <element label="Supporting Documents/Bills" max_length="40" name="documents" type="file_attachment"/>
-        <element label="Dose" max_length="40" name="dose" type="string"/>
+        <element choice="1" label="Dose" max_length="40" name="dose" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1st Dose" sequence="0" value="1st Dose"/>
+                <element inactive_on_update="false" label="2nd Dose" sequence="1" value="2nd Dose"/>
+                <element inactive_on_update="false" label="Booster" sequence="2" value="Booster"/>
+            </choice>
+        </element>
         <element label="Hospital Name" max_length="40" name="hospital_name" type="string"/>
         <element label="Injury Name" max_length="40" name="injury_name" type="string"/>
         <element label="Insurance Provider Name" max_length="40" name="insurance_provider_name" type="string"/>
@@ -30,7 +36,7 @@
         <element label="Place visited" max_length="40" name="place_visited" type="string"/>
         <element label="Remarks" max_length="40" name="remarks" type="journal_input"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Request Owner" max_length="32" name="request_owner" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element choice="1" label="Status" max_length="40" name="status" type="string">
+        <element choice="1" label="Status" max_length="40" name="status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
                 <element inactive_on_update="false" label="Approved by Reviewer" sequence="1" value="Approved by Reviewer"/>

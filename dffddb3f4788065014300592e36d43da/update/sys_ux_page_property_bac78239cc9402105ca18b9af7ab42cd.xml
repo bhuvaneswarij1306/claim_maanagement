@@ -5,13 +5,13 @@
         <name>chrome_toolbar</name>
         <page display_value="Claim Management">76c78239b19402105e1095e9e0f568eb</page>
         <required_translations>[ {
-  "message" : "Analytics Center",
-  "comment" : ""
-}, {
   "message" : "Home",
   "comment" : ""
 }, {
   "message" : "List",
+  "comment" : ""
+}, {
+  "message" : "Reports",
   "comment" : ""
 } ]</required_translations>
         <route/>
@@ -22,90 +22,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>bac78239cc9402105ca18b9af7ab42cd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>chrome_toolbar</sys_name>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_ux_page_property_bac78239cc9402105ca18b9af7ab42cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-12 11:06:03</sys_updated_on>
+        <sys_updated_on>2024-02-14 13:49:32</sys_updated_on>
         <type>json</type>
         <unique_name>x_1025229_claim_0.76c78239b19402105e1095e9e0f568eb.root.chrome_toolbar</unique_name>
-        <value>[&#13;
-   {&#13;
-      "id":"home",&#13;
-      "label": {&#13;
-              "message": "Home",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"home-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"home"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-         &#13;
-      }&#13;
-   },&#13;
-   {&#13;
-      "id":"list",&#13;
-      "label": {&#13;
-              "message": "List",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"list-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"list"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-         &#13;
-      }&#13;
-   },&#13;
- {&#13;
-      "id":"analytics-center",&#13;
-      "label": {&#13;
-              "message": "Analytics Center",&#13;
-               "translatable": true&#13;
-        },&#13;
-      "icon":"analytics-center-outline",&#13;
-      "viewportInfo":{&#13;
-         &#13;
-      },&#13;
-      "routeInfo":{&#13;
-         "route":"analytics-center"&#13;
-      },&#13;
-      "group":"top",&#13;
-      "badge":{&#13;
-         &#13;
-      },&#13;
-      "presence":{&#13;
-         &#13;
-      },&#13;
-      "availability":{&#13;
-         &#13;
-      }&#13;
-   }&#13;
-]</value>
+        <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-outline","routeInfo":{"route":"home"},"group":"top","badge":{},"presence":{},"availability":{}},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"list-outline","routeInfo":{"route":"list"},"group":"top","badge":{},"presence":{},"availability":{}},{"id":"reports","label":{"translatable":true,"message":"Reports"},"icon":"chart-bar-column-fill","routeInfo":{"route":"reports"},"group":"top","badge":{},"presence":{},"availability":{},"order":200}]</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=bac78239cc9402105ca18b9af7ab42cd"/>
 </record_update>

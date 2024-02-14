@@ -25,10 +25,21 @@
         g_form.setVisible('dose', true);
         g_form.setVisible('remarks', true);
         g_form.setVisible('documents', true);
+
+	// 	g_form.setMandatory('claim_name', true);
+    //     g_form.setMandatory('bill_no', true);
+    //     g_form.setMandatory('claim_date', true);
+    //     g_form.setMandatory('amount', true);
+    //     g_form.setMandatory('dose', true);
+    //   //  g_form.setMandatory('remarks', true);
+    //     g_form.setMandatory('documents', true);
+
+
         g_form.setVisible('hospital_name', false);
         g_form.setVisible('insurance_provider_name', false);
         g_form.setVisible('injury_name', false);
         g_form.setVisible('treatment_details', false);
+		
 
 		g_form.setVisible('place_visited',false);
 		g_form.setVisible('mode_of_travel',false);
@@ -49,6 +60,14 @@
         g_form.setVisible('amount', true);
         g_form.setVisible('remarks', true);
         g_form.setVisible('documents', true);
+
+	// 	 g_form.setMandatory('claim_name', true);
+    //     g_form.setMandatory('bill_no', true);
+    //     g_form.setMandatory('claim_date', true);
+    //     g_form.setMandatory('amount', true);
+    //    // g_form.setMandatory('remarks', true);
+    //     g_form.setMandatory('documents', true);
+
 		g_form.setVisible('dose', false);
         g_form.setVisible('hospital_name', false);
         g_form.setVisible('insurance_provider_name', false);
@@ -75,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3391fb0293148210cc6b74cdfaba1056</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Onchange Sub Category</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -83,7 +102,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_script_client_3391fb0293148210cc6b74cdfaba1056</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-13 14:52:02</sys_updated_on>
+        <sys_updated_on>2024-02-14 12:55:06</sys_updated_on>
         <table>x_1025229_claim_0_claim_request_details</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
