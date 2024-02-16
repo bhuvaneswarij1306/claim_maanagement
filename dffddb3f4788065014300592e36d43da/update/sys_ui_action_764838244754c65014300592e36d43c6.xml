@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>(gs.hasRole('x_1025229_claim_0.accounts')) &amp;&amp; (current.claim_request.status == 'Approved by Reviewer')</condition>
+        <condition>(gs.hasRole('x_1025229_claim_0.accounts')) &amp;&amp; (current.claim_request.status == 'Approved by Reviewer')&amp;&amp;current.state== 1</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>true</form_button_v2>
@@ -47,7 +47,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>764838244754c65014300592e36d43c6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Reject</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -55,7 +55,7 @@ current.update();]]></script>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_ui_action_764838244754c65014300592e36d43c6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-12 06:40:58</sys_updated_on>
+        <sys_updated_on>2024-02-16 04:53:26</sys_updated_on>
         <table>x_1025229_claim_0_test_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

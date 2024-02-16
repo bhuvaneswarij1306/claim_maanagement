@@ -4,7 +4,7 @@
         <access>package_private</access>
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
-        <action_query>true</action_query>
+        <action_query>false</action_query>
         <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
@@ -35,13 +35,22 @@
 	//claimGr.addActiveQuery();
 	//claimGr.query();
 	//while(claimGr.next()){
-		var major_count = parseInt(claimGr.getValue('major_count'));
-		var major_ticket_cost = parseInt(claimGr.getValue('major_ticket_cost_each'));
+		var major_count = parseFloat(current.major_count);
+		var major_ticket_cost = parseFloat(current.major_ticket_cost_each);
 		if(!isNaN(major_count) && !isNaN(major_ticket_cost)){
 			totalCost = major_count * major_ticket_cost;
 		}
 	//}
-	claimGr.total_major_cost = totalCost;
+	current.total_major_cost = parseFloat(totalCost);
+
+	var minor_count = parseFloat(current.minor_count);
+		var minor_ticket_cost_each = parseFloat(current.minor_ticket_cost_each);
+		if(!isNaN(minor_count) && !isNaN(minor_ticket_cost_each)){
+			totalCost = minor_count * minor_ticket_cost_each;
+		}
+	//}
+	current.total_minor_cost = parseFloat(totalCost);
+
 	current.update();
 
 })(current, previous);]]></script>
@@ -51,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d71d742a93dcc210cc6b74cdfaba1089</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>total cost major and minor</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -59,7 +68,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_script_d71d742a93dcc210cc6b74cdfaba1089</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-14 13:43:16</sys_updated_on>
+        <sys_updated_on>2024-02-16 04:59:38</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

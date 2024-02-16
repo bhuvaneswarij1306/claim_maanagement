@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Approval Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Approval Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">19d3fca43c31311068bcf327dfe37f33</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 04:47:39</sys_created_on>
+        <sys_id>8787594793984210cc6b74cdfaba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Task</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_wizard_answer_8787594793984210cc6b74cdfaba1042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 04:47:39</sys_updated_on>
+        <table/>
+        <target_url>x_1025229_claim_0_test_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

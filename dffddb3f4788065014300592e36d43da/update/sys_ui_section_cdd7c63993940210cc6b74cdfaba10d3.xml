@@ -4,41 +4,153 @@
             <element>user_details.name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
-            <sys_id>d1d7c63993940210cc6b74cdfaba10d6</sys_id>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6192158f93584210cc6b74cdfaba104f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.contact</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>e592158f93584210cc6b74cdfaba104f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.manager</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6d92158f93584210cc6b74cdfaba104f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.account_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>e192158f93584210cc6b74cdfaba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.account_name</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6992158f93584210cc6b74cdfaba1050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
-            <sys_id>59d7c63993940210cc6b74cdfaba10d6</sys_id>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>ed92158f93584210cc6b74cdfaba1050</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>user_details.email</element>
-            <position>2</position>
+            <element>user_details.user_name</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-02-12 11:06:12</sys_created_on>
-            <sys_id>ddd7c63993940210cc6b74cdfaba10d6</sys_id>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6592158f93584210cc6b74cdfaba1051</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-02-12 11:06:12</sys_updated_on>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.email</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>e992158f93584210cc6b74cdfaba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.project</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6192158f93584210cc6b74cdfaba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.bank_name</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>e592158f93584210cc6b74cdfaba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_details.ifsc_code</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-16 04:25:59</sys_created_on>
+            <sys_id>6d92158f93584210cc6b74cdfaba1052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_1025229_claim_0_claim_request_details" sys_domain="global" view="b6c7823903940210b9fa4fd0a95371e1">cdd7c63993940210cc6b74cdfaba10d3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-16 04:25:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (All Claim Requests)">b725e20393508210cc6b74cdfaba102a</button>
+        <item_parameter display_value="All Claim Requests amount">7725e20393508210cc6b74cdfaba1024</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:51</sys_created_on>
+        <sys_id>3725e20393508210cc6b74cdfaba1062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>7725e20393508210cc6b74cdfaba1024</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_3725e20393508210cc6b74cdfaba1062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:51</sys_updated_on>
+        <ui_parameter display_value="Amount">bf25e20393508210cc6b74cdfaba102a</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

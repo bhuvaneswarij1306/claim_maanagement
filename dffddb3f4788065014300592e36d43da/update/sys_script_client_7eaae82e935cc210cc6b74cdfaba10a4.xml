@@ -18,9 +18,9 @@
 
     if (g_user.hasRole('x_1025229_claim_0.employees') && status === 'Submitted' || status === 'Approved by Reviewer' ||
         status === 'Completed' || status === 'Rejected') {
-         g_form.setReadOnly('category', true);
-		  g_form.setReadOnly('sub_category', true);
-		g_form.setReadOnly('hospital_name', true);
+        g_form.setReadOnly('category', true);
+        g_form.setReadOnly('sub_category', true);
+        g_form.setReadOnly('hospital_name', true);
         g_form.setReadOnly('claim_name', true);
         g_form.setReadOnly('bill_no', true);
         g_form.setReadOnly('claim_date', true);
@@ -41,6 +41,7 @@
         g_form.setReadOnly('minor_count', true);
         g_form.setReadOnly('minor_ticket_cost_each', true);
         g_form.setReadOnly('total_minor_cost', true);
+        g_form.setReadOnly('documents', true);
     }
     //alert(category);
     // if (category === 'Cash' && subCategory === 'Covid Vaccination') {
@@ -267,7 +268,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7eaae82e935cc210cc6b74cdfaba10a4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set Fields Readonly</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -275,7 +276,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_script_client_7eaae82e935cc210cc6b74cdfaba10a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-14 13:47:26</sys_updated_on>
+        <sys_updated_on>2024-02-16 05:04:47</sys_updated_on>
         <table>x_1025229_claim_0_claim_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Sent back Requests)">2f25620393508210cc6b74cdfaba10e3</button>
+        <item_parameter display_value="Sent back Requests bill_no">a725620393508210cc6b74cdfaba10d1</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:50</sys_created_on>
+        <sys_id>6f25a20393508210cc6b74cdfaba1013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a725620393508210cc6b74cdfaba10d1</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_6f25a20393508210cc6b74cdfaba1013</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:50</sys_updated_on>
+        <ui_parameter display_value="Bill no">6f25620393508210cc6b74cdfaba10e5</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
