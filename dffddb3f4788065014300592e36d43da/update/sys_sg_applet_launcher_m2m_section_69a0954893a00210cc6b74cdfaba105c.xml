@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Claim Management">f8a0914893a00210cc6b74cdfaba10bf</applet_launcher>
+        <order>0</order>
+        <section display_value="Claim Request Details">29a0954893a00210cc6b74cdfaba105a</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:51:26</sys_created_on>
+        <sys_id>69a0954893a00210cc6b74cdfaba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_69a0954893a00210cc6b74cdfaba105c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:51:26</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+</record_update>

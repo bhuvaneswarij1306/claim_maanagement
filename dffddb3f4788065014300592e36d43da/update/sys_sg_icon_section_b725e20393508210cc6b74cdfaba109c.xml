@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
     <sys_sg_icon_section action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applets>6725620393508210cc6b74cdfaba10c4,ff25e20393508210cc6b74cdfaba1005</applets>
+        <applets/>
         <card_size/>
         <column_count/>
         <custom_height/>
@@ -19,14 +19,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-16 10:26:52</sys_created_on>
         <sys_id>b725e20393508210cc6b74cdfaba109c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Claim Request Details</sys_name>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_sg_icon_section_b725e20393508210cc6b74cdfaba109c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-16 10:26:52</sys_updated_on>
+        <sys_updated_on>2024-02-19 06:29:28</sys_updated_on>
         <table/>
         <title>Claim Request Details</title>
         <visible_condition/>

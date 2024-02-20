@@ -3,7 +3,7 @@
         <condition_order/>
         <datasource_table>x_1025229_claim_0_claim_request_details</datasource_table>
         <datasource_table_condition/>
-        <embedded_screen display_value="Sent back Requests Form Screen">a725620393508210cc6b74cdfaba10c5</embedded_screen>
+        <embedded_screen/>
         <item_view/>
         <name>Sent back Requests Form Screen Master Item</name>
         <sys_class_name>sys_sg_master_item</sys_class_name>

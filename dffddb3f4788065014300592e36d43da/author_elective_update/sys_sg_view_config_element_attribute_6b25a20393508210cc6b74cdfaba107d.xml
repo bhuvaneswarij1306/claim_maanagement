@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="DELETE">
+        <description/>
+        <name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:51</sys_created_on>
+        <sys_id>6b25a20393508210cc6b74cdfaba107d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_6b25a20393508210cc6b74cdfaba107d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:51</sys_updated_on>
+        <translated_value/>
+        <value>lta_details</value>
+        <view_config_element display_value="lta_details-FieldValue">6b25a20393508210cc6b74cdfaba107b</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=6b25a20393508210cc6b74cdfaba107d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_sg_view_config_element_attribute_6b25a20393508210cc6b74cdfaba107d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><description/><name display_value="FieldValue">c2eed5c2b7321010df65f6efce11a9cf</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-16 10:26:51</sys_created_on><sys_id>6b25a20393508210cc6b74cdfaba107d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_6b25a20393508210cc6b74cdfaba107d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-16 10:26:51</sys_updated_on><translated_value/><value>lta_details</value><view_config_element display_value="lta_details-FieldValue">6b25a20393508210cc6b74cdfaba107b</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=6b25a20393508210cc6b74cdfaba107d"/></record_update>]]></payload>
+        <payload_hash>-2115693384</payload_hash>
+        <record_name>c2eed5c2b7321010df65f6efce11a9cf</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:51</sys_created_on>
+        <sys_id>e725a20393508210cc6b74cdfaba107f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18db17462b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:51</sys_updated_on>
+        <type>Card element attribute</type>
+        <update_guid>eb25a2032e508210a2507d394f42ed7e</update_guid>
+        <update_guid_history>eb25a2032e508210a2507d394f42ed7e:-2115693384</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:30:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element_attribute">sys_sg_view_config_element_attribute</sys_db_object>
+        <sys_id>0dff7d8a67ab4e5a94b0877891d414e4</sys_id>
+        <sys_metadata>6b25a20393508210cc6b74cdfaba107d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c2eed5c2b7321010df65f6efce11a9cf</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_attribute_6b25a20393508210cc6b74cdfaba107d</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_attribute_6b25a20393508210cc6b74cdfaba107d">e725a20393508210cc6b74cdfaba107f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:30:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Edit">af25620393508210cc6b74cdfaba10c3</icon>
+        <name>Sent back Requests</name>
+        <parameter_screen/>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:50</sys_created_on>
+        <sys_id>6725620393508210cc6b74cdfaba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sent back Requests</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_list_screen_6725620393508210cc6b74cdfaba10c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:50</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=6725620393508210cc6b74cdfaba10c4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_sg_list_screen_6725620393508210cc6b74cdfaba10c4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Edit">af25620393508210cc6b74cdfaba10c3</icon><name>Sent back Requests</name><parameter_screen/><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-16 10:26:50</sys_created_on><sys_id>6725620393508210cc6b74cdfaba10c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sent back Requests</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_sg_list_screen_6725620393508210cc6b74cdfaba10c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-16 10:26:50</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=6725620393508210cc6b74cdfaba10c4"/></record_update>]]></payload>
+        <payload_hash>-675413436</payload_hash>
+        <record_name>Sent back Requests</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:55</sys_created_on>
+        <sys_id>b435660393508210cc6b74cdfaba10e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18db17474720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:55</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>b8356603d25082107766cb60e4f024e0</update_guid>
+        <update_guid_history>b8356603d25082107766cb60e4f024e0:-675413436</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:29:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>1e69933ee583435ab4809cb8c36399e4</sys_id>
+        <sys_metadata>6725620393508210cc6b74cdfaba10c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sent back Requests</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_6725620393508210cc6b74cdfaba10c4</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_6725620393508210cc6b74cdfaba10c4">b435660393508210cc6b74cdfaba10e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:29:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

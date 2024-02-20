@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">ff25e20393508210cc6b74cdfaba1006</embedded_screen>
-        <form display_value="All Claim Requests Form Screen">f725e20393508210cc6b74cdfaba1006</form>
+        <form/>
         <header_view_config/>
         <is_sticky>false</is_sticky>
         <order>10</order>

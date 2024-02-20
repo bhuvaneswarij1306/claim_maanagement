@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="DELETE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description/>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Edit">7b25e20393508210cc6b74cdfaba1005</icon>
+        <item_view/>
+        <name>All Claim Requests Form Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <parameter_screen/>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:51</sys_created_on>
+        <sys_id>f725e20393508210cc6b74cdfaba1006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Claim Requests Form Screen</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_form_screen_f725e20393508210cc6b74cdfaba1006</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:51</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="All Claim Requests Detail Screen View Config">e325a20393508210cc6b74cdfaba10db</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="DELETE" query="documentkey=f725e20393508210cc6b74cdfaba1006"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Claim Management">dffddb3f4788065014300592e36d43da</application>
+        <file_path/>
+        <instance_id>f6e4db751b5ab110e84d2f8dee4bcb22</instance_id>
+        <instance_name>dev204739</instance_name>
+        <name>sys_sg_form_screen_f725e20393508210cc6b74cdfaba1006</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen"><sys_sg_form_screen action="INSERT_OR_UPDATE"><alert/><available_offline>false</available_offline><data_item/><description/><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Edit">7b25e20393508210cc6b74cdfaba1005</icon><item_view/><name>All Claim Requests Form Screen</name><override_context_with_data_item>false</override_context_with_data_item><parameter_screen/><roles_override/><segments_height>medium</segments_height><segments_min_width>medium</segments_min_width><sys_class_name>sys_sg_form_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-16 10:26:51</sys_created_on><sys_id>f725e20393508210cc6b74cdfaba1006</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All Claim Requests Form Screen</sys_name><sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package><sys_policy/><sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope><sys_update_name>sys_sg_form_screen_f725e20393508210cc6b74cdfaba1006</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-16 10:26:51</sys_updated_on><table>x_1025229_claim_0_claim_request_details</table><use_view_config>true</use_view_config><view_config display_value="All Claim Requests Detail Screen View Config">e325a20393508210cc6b74cdfaba10db</view_config></sys_sg_form_screen><sys_translated_text action="delete_multiple" query="documentkey=f725e20393508210cc6b74cdfaba1006"/></record_update>]]></payload>
+        <payload_hash>-2061721559</payload_hash>
+        <record_name>All Claim Requests Form Screen</record_name>
+        <reverted_from/>
+        <source>3a56cdb993100210cc6b74cdfaba1082</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-16 10:26:57</sys_created_on>
+        <sys_id>0935a60393508210cc6b74cdfaba108a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18db1747a720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-16 10:26:57</sys_updated_on>
+        <type>Record screen</type>
+        <update_guid>4d35a603505082102889ab57000f0989</update_guid>
+        <update_guid_history>4d35a603505082102889ab57000f0989:-2061721559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 06:29:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_form_screen">sys_sg_form_screen</sys_db_object>
+        <sys_id>0afdd003fb9f47f0871ddfadef3c4640</sys_id>
+        <sys_metadata>f725e20393508210cc6b74cdfaba1006</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Claim Requests Form Screen</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_scope_delete display_value="">658271087fc549b49a631a035261bb10</sys_scope_delete>
+        <sys_update_name>sys_sg_form_screen_f725e20393508210cc6b74cdfaba1006</sys_update_name>
+        <sys_update_version display_value="sys_sg_form_screen_f725e20393508210cc6b74cdfaba1006">0935a60393508210cc6b74cdfaba108a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 06:29:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

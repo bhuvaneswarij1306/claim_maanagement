@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string/>
+        <name>Claim Approved by reviewer</name>
+        <push_app display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</push_app>
+        <push_message_content display_value="Claim request approved">b0d8e5c093200210cc6b74cdfaba102d</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 09:16:38</sys_created_on>
+        <sys_id>f8b175cc93200210cc6b74cdfaba102f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Claim Approved by reviewer</sys_name>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_push_notif_msg_f8b175cc93200210cc6b74cdfaba102f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 09:16:38</sys_updated_on>
+        <table>x_1025229_claim_0_claim_request_details</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

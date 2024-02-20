@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Claim Management">f8a0914893a00210cc6b74cdfaba10bf</applet_launcher>
+        <order/>
+        <quick_action_button display_value="Create new claim request">a0d5990093e00210cc6b74cdfaba1085</quick_action_button>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-19 07:14:01</sys_created_on>
+        <sys_id>68d5990093e00210cc6b74cdfaba108a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_68d5990093e00210cc6b74cdfaba108a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-19 07:14:01</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+</record_update>

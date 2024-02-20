@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
     <sys_sg_form_segment action="INSERT_OR_UPDATE">
         <embedded_screen display_value="Details">a725620393508210cc6b74cdfaba10c6</embedded_screen>
-        <form display_value="Sent back Requests Form Screen">a725620393508210cc6b74cdfaba10c5</form>
+        <form/>
         <header_view_config/>
         <is_sticky>false</is_sticky>
         <order>10</order>

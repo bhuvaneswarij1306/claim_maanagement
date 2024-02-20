@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applet_launcher display_value="Claim Management">5325620393508210cc6b74cdfaba1041</applet_launcher>
+        <applet_launcher/>
         <icon display_value="Request">d325620393508210cc6b74cdfaba1040</icon>
         <label>Claim Management</label>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
