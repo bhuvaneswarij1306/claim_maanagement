@@ -17,7 +17,7 @@
    var currentDate = new Date();
    var claimDate = new Date(g_form.getValue('claim_date'));
    if(claimDate.valueOf() > currentDate.valueOf()){
-	g_form.showErrorBox("claim_date", "Please select the date ");
+	g_form.showErrorBox("claim_date", "Please select the date where you done the payment");
 	//g_form.clearValue('claim_date');
 	return false;
    }
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1acad71293d4c210cc6b74cdfaba10b5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>validation for claim date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_script_client_1acad71293d4c210cc6b74cdfaba10b5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-14 07:46:34</sys_updated_on>
+        <sys_updated_on>2024-02-21 05:51:14</sys_updated_on>
         <table>x_1025229_claim_0_claim_request_details</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

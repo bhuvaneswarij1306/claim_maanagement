@@ -2823,7 +2823,7 @@
                                                     },
                                                     "id": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "dGFibGV4XzEwMjUyMjlfY2xhaW1fMF90ZXN0X3Rhc2sxNzA3OTc0MjAzMzA5"
+                                                        "value": "dGFibGV4XzEwMjUyMjlfY2xhaW1fMF9jbGFpbV9yZXF1ZXN0X2RldGFpbHMxNzA4NDk2NTEyNzQ2"
                                                     },
                                                     "isDatabaseView": {
                                                         "type": "JSON_LITERAL",
@@ -2834,7 +2834,7 @@
                                                         "value": {
                                                             "code": null,
                                                             "comment": "",
-                                                            "message": "Approval Task"
+                                                            "message": "Claim Request Details"
                                                         }
                                                     },
                                                     "preferredVisualizations": {
@@ -2852,7 +2852,7 @@
                                                     },
                                                     "tableOrViewName": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "x_1025229_claim_0_test_task"
+                                                        "value": "x_1025229_claim_0_claim_request_details"
                                                     }
                                                 },
                                                 "type": "MAP_CONTAINER"
@@ -2953,7 +2953,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Number of Task created based on date"
+                                            "message": "Request Creation based on creation date"
                                         }
                                     },
                                     "headingLevel": {
@@ -3030,11 +3030,11 @@
                                                     },
                                                     "dataSource": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "dGFibGV4XzEwMjUyMjlfY2xhaW1fMF90ZXN0X3Rhc2sxNzA3OTc0MjAzMzA5"
+                                                        "value": "dGFibGV4XzEwMjUyMjlfY2xhaW1fMF9jbGFpbV9yZXF1ZXN0X2RldGFpbHMxNzA4NDk2NTEyNzQ2"
                                                     },
                                                     "id": {
                                                         "type": "JSON_LITERAL",
-                                                        "value": "ZEdGaWJHVjRYekV3TWpVeU1qbGZZMnhoYVcxZk1GOTBaWE4wWDNSaGMyc3hOekEzT1RjME1qQXpNekE1MTcwNzk3NDIwNTY4OQ=="
+                                                        "value": "ZEdGaWJHVjRYekV3TWpVeU1qbGZZMnhoYVcxZk1GOWpiR0ZwYlY5eVpYRjFaWE4wWDJSbGRHRnBiSE14TnpBNE5EazJOVEV5TnpRMjE3MDg0OTY1MTM4NDE="
                                                     },
                                                     "numberFormat": {
                                                         "type": "JSON_LITERAL",
@@ -3221,7 +3221,7 @@
                                     },
                                     "sortBy": {
                                         "type": "JSON_LITERAL",
-                                        "value": null
+                                        "value": "value"
                                     },
                                     "sortByOrder": {
                                         "type": "JSON_LITERAL",
@@ -3253,7 +3253,7 @@
                                             "trendByFields": [
                                                 {
                                                     "field": "sys_created_on",
-                                                    "metric": "ZEdGaWJHVjRYekV3TWpVeU1qbGZZMnhoYVcxZk1GOTBaWE4wWDNSaGMyc3hOekEzT1RjME1qQXpNekE1MTcwNzk3NDIwNTY4OQ=="
+                                                    "metric": "ZEdGaWJHVjRYekV3TWpVeU1qbGZZMnhoYVcxZk1GOWpiR0ZwYlY5eVpYRjFaWE4wWDJSbGRHRnBiSE14TnpBNE5EazJOVEV5TnpRMjE3MDg0OTY1MTM4NDE="
                                                 }
                                             ],
                                             "trendByFrequency": "date",
@@ -3358,10 +3358,7 @@
                                     }
                                 },
                                 "slot": null,
-                                "styles": {
-                                    "align-self": "stretch",
-                                    "height": "250px"
-                                }
+                                "styles": null
                             }
                         ],
                         "layout": {
@@ -3371,7 +3368,8 @@
                                     {
                                         "element_id": "single_score_4",
                                         "styles": {
-                                            "align-self": "stretch"
+                                            "align-self": "stretch",
+                                            "height": "250px"
                                         }
                                     }
                                 ],
@@ -3641,9 +3639,6 @@
   "message" : "All Active Tasks",
   "comment" : ""
 }, {
-  "message" : "Approval Task",
-  "comment" : ""
-}, {
   "message" : "Claim Request Details",
   "comment" : ""
 }, {
@@ -3656,7 +3651,7 @@
   "message" : "No data available.",
   "comment" : ""
 }, {
-  "message" : "Number of Task created based on date",
+  "message" : "Request Creation based on creation date",
   "comment" : ""
 }, {
   "message" : "Total Claim Request",
@@ -3679,14 +3674,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-02-12 13:12:17</sys_created_on>
         <sys_id>dcb422b193580210cc6b74cdfaba101b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Home Approver copy</sys_name>
         <sys_package display_value="Claim Management" source="x_1025229_claim_0">dffddb3f4788065014300592e36d43da</sys_package>
         <sys_policy/>
         <sys_scope display_value="Claim Management">dffddb3f4788065014300592e36d43da</sys_scope>
         <sys_update_name>sys_ux_macroponent_dcb422b193580210cc6b74cdfaba101b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-15 05:17:31</sys_updated_on>
+        <sys_updated_on>2024-02-21 06:23:28</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=dcb422b193580210cc6b74cdfaba101b"/>
 </record_update>
